@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/php/gym":{"guestpath":"/home/php/gym","hostpath":"/home/dmateosca/gym","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/dmateosca/gym","disabled":false,"__vagrantfile":true}}}
