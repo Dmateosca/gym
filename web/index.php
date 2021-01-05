@@ -1,16 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>Gimnasio Wellness Sierra de Gata</title>
- 	 <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css" />
-    <link href="css/estilo1.css" rel="stylesheet">
-    <script src="js/jquery-3.1.1.min.js"></script>
-	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/script1.js">
-	</script>
+	<?php
+		include 'cabecera.php';
+	?>
    
 </head>
 <body>

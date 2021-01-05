@@ -4,7 +4,8 @@ $(function(){
 	            //creamos el calendario con jquery.ui
 	            $("#calendario").datepicker({
 	                firstDay:1,
-	                dateFormat: 'dd/mm/yy',
+					dateFormat: 'dd/mm/yy',
+					changeYear: true,
 	                showButtonPanel: true
 	            }).datepicker("setDate", new Date());
 

@@ -1,10 +1,18 @@
 <?php
 
+
 Class conexionBD extends mysqli{
+	var $user;
+	var $password;
 	public function __construct(){
-		parent::__construct("localhost","root","root","gym");
+		include 'cargarFichero.php';
+		$cargar = new cargarFichero();
+		$array = $cargar->cargarFicheros();
+		parent::__construct("localhost",$array['user'],$array['password'],"gym");
 		parent::set_charset("utf8");
 	}
+
+	
 	
 	
 }
